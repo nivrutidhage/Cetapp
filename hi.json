@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Physics Book",
+        "description": "Class 11 Physics",
+        "link": "https://example.com/physics"
+    },
+    {
+        "title": "Chemistry Notes",
+        "description": "Organic Chemistry",
+        "link": "https://example.com/chemistry"
+    },
+    {
+        "title": "Math Guide",
+        "description": "JEE Preparation",
+        "link": "https://example.com/math"
+    }
+]
