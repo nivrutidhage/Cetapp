@@ -123,14 +123,7 @@ class Login(Screen):
         # JsonStore automatically creates file in app's local storage
         self.store = JsonStore('auth_data.json')
         self.firebase_config = {
-            'apiKey': "AIzaSyAFdyRcRFrPj9_V3Nr0mafStyfoiR9A2Wk",
-            'authDomain': "cetapp-776a7.firebaseapp.com",
-            'projectId': "cetapp-776a7",
-            'storageBucket': "cetapp-776a7.firebasestorage.app",
-            'messagingSenderId': "246813247708",
-            'appId': "1:246813247708:web:19fb9dac0aeb344c0f8c19",
-            'measurementId': "G-Q38LP6VWMQ",
-            'databaseURL': "https://trialauth-7eeal.firebaseio.com"       
+            # Add config       
         }
         self.firebase = pyrebase.initialize_app(self.firebase_config)
         self.auth = self.firebase.auth()
