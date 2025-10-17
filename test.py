@@ -13,10 +13,7 @@ from kivy.metrics import dp
 
 # Your Firebase configuration details
 config = {
-    "apiKey": "AIzaSyAFdyRcRFrPj9_V3Nr0mafStyfoiR9A2Wk",
-    "authDomain": "cetapp-776a7.firebaseapp.com",
-    "databaseURL": "https://cetapp-776a7-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "storageBucket": "cetapp-776a7.firebasestorage.app"
+    # add config
 }
 
 try:
